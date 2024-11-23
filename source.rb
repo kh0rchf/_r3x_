@@ -1,12 +1,14 @@
 #!/usr/bin/ruby
 #
 
+puts " Hello, World! "
 
-def _inp(name)
 
-  puts " Write @{name}! "
 
-end
+
+
+
+
 
 
 

@@ -1,12 +1,16 @@
 
 
+
 FROM ruby:3.3.6
-WORKDIR
-COPY
-RUN 
-ENV
-EXPOSE
-CMD	["ruby","start"]
+
+WORKDIR /app
+
+COPY . /app
+
+RUN  
+
+ENTRYPOINT ["ruby","source.rb"]
+
 
 
 
